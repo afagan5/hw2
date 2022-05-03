@@ -258,12 +258,6 @@ new_role["actor_id"] = anneh["id"]
 new_role["character_name"] = "Selina Kyle"
 new_role.save
 
-puts "There are #{Studio.all.count} studios"
-puts "There are #{Movie.all.count} movies"
-puts "There are #{Actor.all.count} actors"
-puts "There are #{Role.all.count} roles"
-
-
 # Prints a header for the movies output
 puts "Movies"
 puts "======"
